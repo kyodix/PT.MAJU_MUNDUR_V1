@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>SERVICES - PT. MAJU MUNDUR</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="style/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
@@ -24,9 +24,21 @@
 			<div class="content-body">
 				<div class="wrapper">
 					<h1>Services</h1>
-					<a href="index.php" style="text-decoration: none; color: #aaa;">Home </a>
+					<a href="index.php" style="text-decoration: none; color: #aaa;">Home </a>&rsaquo; Services
 					<h2>JUDUL KONTEN SERVICES</h2>
-					<p>ISI KONTEN</p>
+
+					<?php
+						$services = "1. Rental Mobil Travel"."<p>".
+						"Rental mobil travel tanpa supir, harga mulai dari Rp. 200.000,
+						atau rental mobil travel dengan sopir harga mulai dari Rp. 300.000"."</p>".
+						"2. Paket wisata ke pantai Gunung Kidul"."<p>".
+						"Gunung kidul punya banyak wisata paket yang indah, anda bisa menggunakan jasa travel kami dengan aman dan nyaman, harga mulai dari Rp. 250.000"."</p>".
+						"3. Paket wisata ke Kaliurang"."<p>".
+						"Kaliurang punya banyak wisata paket yang indah, anda bisa menggunakan jasa travel kami dengan aman dan nyaman, harga mulai dari Rp. 250.000"."</p>";
+
+						echo $services;
+					?>
+
 				</div>
 			</div>
 			<div class="sidebar">
@@ -37,14 +49,20 @@
 					<br>
 					<label><b>Links</b></label>
 					<?php
-						$link = array('<a href="https://www.google.com">Link1</a>','<a href="https://www.facebook.com">Link2</a>','<a href="https://www.twitter.com">Link3</a>','<a href="https://www.instagram.com">Link4</a>');
+						$link = array('<a href="https://www.facebook.com" style="text-decoration:none; color: grey;">Facebook</a>','<a href="https://www.instagram.com" style="text-decoration:none; color: grey;">Instagram</a>','<a href="https://www.twitter.com" style="text-decoration:none; color: grey;">Twitter</a>');
 						echo "<br>";
 						echo implode("<br>",$link);
 					?>
 				<br>
 				<br>
-				<label><b>Info</b></label><br>
-				<span>Jadwal Workshop: 29 Febuari 2019</span>
+
+				<?php
+				$info = "<b>"."Info"."</b>"."<br>".
+				"Promo paket wisata ke pantai Gunung Kidul";
+
+				echo $info;
+				?>
+
 				</div>
 			</div>
 		</div>
