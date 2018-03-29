@@ -26,25 +26,19 @@
 					<br>
 					<br>
 					<form action="" method="post">
-						Username: <br>
-						<input type="text" name="username" value="<?=isset($_POST['username']) ? $_POST['username'] : ''?>"><br>
-						Password: <br>
-						<input type="password" name="password" value="<?=isset($_POST['password']) ? $_POST['password'] : '' ?>"><br>
+						First name: <br>
+						<input type="text" name="firstname" value="<?=isset($_POST['firstname']) ? $_POST['firstname'] : ''?>"><br>
+						Last name: <br>
+						<input type="text" name="lastname" value="<?=isset($_POST['lastname']) ? $_POST['lastname'] : '' ?>"><br>
 						Email: <br>
 						<input type="email" name="email" value="<?=isset($_POST['email']) ? $_POST['email'] : '' ?>"><br>
-						Prefered Time: <br>
-						<input type="radio button" name="preferedtime" value="<?=isset($_POST['preferedtime']) ? $_POST['preferedtime'] : '' ?>"><br>
-						Classes Taken: <br>
-						<input type="check box" name="classestaken" value="<?=isset($_POST['classestaken']) ? $_POST['classestaken'] : '' ?>"><br>
-						Gender: <br>
-						<input type="select/drop down" name="gender" value="<?=isset($_POST['gender']) ? $_POST['gender'] : '' ?>"><br>
 						Message: <br>
 						<textarea rows="10" cols="30" name="message" value="<?=isset($_POST['message']) ? $_POST['message'] : '' ?>"></textarea><br>
 						<br><input type="submit" name="submit" value="Send">
 					</form>
 				<?php
 				if (isset($_POST['submit'])){
-					echo "<h4>Pesan anda: </h4><b>".$_POST['username']."</b> <b>". $_POST['preferedtime']."</b> <b>". $_POST['classestaken']."</b> <b>". $_POST['gender']."</b> | <u>".$_POST['email']."</u> :";
+					echo "<h4>Pesan anda: </h4><b>".$_POST['firstname']."</b> <b>". $_POST['lastname']."</b> | <u>".$_POST['email']."</u> :";
 					echo "<hr><br>".$_POST['message'];
 				}
 				?>
@@ -60,14 +54,16 @@
 						<br/>
 						<label><b>Links</b></label>
 						<?php
-							$link = array('<a href="https://www.google.com">Link1</a>','<a href="https://www.facebook.com">Link2</a>','<a href="https://www.twitter.com">Link3</a>','<a href="https://www.instagram.com">Link4</a>');
-							echo "<br/>";
-							echo implode("<br/>",$link);
+						$link = array('<a href="https://www.google.com">Link1</a>','<a href="https://www.facebook.com">Link2</a>','<a href="https://www.twitter.com">Link3</a>','<a href="https://www.instagram.com">Link4</a>');
+						echo "<br/>";
+						echo implode("<br/>",$link);
 						?>
 					<br/>
 					<br/>
-					<label><b>Info</b></label><br>
-					<span>Jadwal Workshop: 29 Febuari 2019</span>
+					<?php
+					$info = "Jadwal Workshop Bisnis Travel";
+					echo '<label><b>'.$info.'</b></label><br>'
+					?> 
 				</div>
 			</div>
 		</div>
