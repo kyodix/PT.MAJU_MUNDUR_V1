@@ -4,13 +4,13 @@
 script php
 -->					 
 <?php
-$konten = "isi konten";
+$konten = "PT. MAJU dan MUNDUR adalah travel agent terdepan di Indonesia yang telah berdiri sejak 2018. Dengan kantor - kantor cabang yang tersebar di Indonesia dan situs pt.maju.mundur.demojoomla.com, kami hadir untuk menjadi pintu gerbang Anda menuju destinasi yang luar biasa. Selama hampir 1 hari PT. MAJU dan MUNDUR telah menjadi sahabat dan mitra Anda dalam menjelajahi dunia, dengan itu juga kami mencetak pencapaian yang luar biasa meliputi: Setiap tahun membawa lebih dari 250.000 pelanggan setia untuk mengunjungi berbagai destinasi yang luar biasa. Bekerjasama dengan hampir 800 maskapai penerbangan. Bermitra dengan lebih dari 60,000 Hotel dan properti di seluruh dunia.Menjelajahi samudra dengan 12 kapal pesiar";
 $date   = date('l, d-M-y');
 $link   = array('<a href="https://www.google.com">Link1</a>',
 		'<a href="https://www.facebook.com">Link2</a>',
 		'<a href="https://www.twitter.com">Link3</a>',
 		'<a href="https://www.instagram.com">Link4</a>');
-$info   = "Jadwal Workshop : Cara Sukses berbisnis Tour & Travel";
+$info   = "Promo paket wisata ke pantai Gunung Kidul";
 ?>
 <!-- 
 script php
