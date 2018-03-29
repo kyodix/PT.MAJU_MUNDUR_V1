@@ -11,7 +11,7 @@
 		<div class="container">
 			<a href="index.php"><img src="maju-mundur-logo.png"></a>
 			<ul>
-				<li><a href="index.php">ome</a></li>
+				<li><a href="index.php">Home</a></li>
 				<li><a href="services.php">Services</a></li>
 				<li><a href="team.php">Team</a></li>
 				<li><a href="about.php">About Us</a></li>
@@ -25,8 +25,8 @@
 				<div class="wrapper">
 					<h1>Home</h1>
 					<a href="index.php" style="text-decoration: none; color: #aaa;">Home </a>
-					<h2>BUAT JUTAAN ORANG DI DUNIA MENEMUKAN BISNIS ANDA DI INTERNET</h2>
-					<p>Sebagai jasa pembuatan website profesional, Solusi Digital adalah partner terbaik untuk bisnis Anda dalam menghadapi Era Digital yang serba teknologi. Perluas jangkauan bisnis Anda, jadikan bisnis Anda sebagai bisnis modern yang mudah dijangkau semua orang di Indonesia.</p>
+					<!-- <h2>BUAT JUTAAN ORANG DI DUNIA MENEMUKAN BISNIS ANDA DI INTERNET</h2> -->
+					<!-- <p>Sebagai jasa pembuatan website profesional, Solusi Digital adalah partner terbaik untuk bisnis Anda dalam menghadapi Era Digital yang serba teknologi. Perluas jangkauan bisnis Anda, jadikan bisnis Anda sebagai bisnis modern yang mudah dijangkau semua orang di Indonesia.</p> -->
 				</div>
 			</div>
 			<div class="sidebar">
