@@ -4,7 +4,7 @@
 script php
 -->					 
 <?php
-$konten = "isi konten";
+$konten = "Maju MundurTour & Travel adalah sebuah perusahaan terbatas perjalanan wisata di kota Yogyakarta yang berdiri pada tanggal 1 Januari 2015 didirikan oleh Bapak Aris. Kini perusahaan ini telah berpengalaman selama 3 tahun memiliki 10 karyawan yang berpengalaman dan berkomitmen untuk melayani perjalanan travel dengan aman dan nyaman. Visi: Menjadi perusahaan jasa terpercaya dan berkomitmen untuk menjadi perusahaan pelayanan travel yang aman dan nyaman.Misi:1. Memberikan pelayanan terbaik 2. Membina komunikasi yang baik kepada semua pelanggan 3. Membantu mengurangi angka pengangguran 4. Menggunakan tenaga pekerja yang proffesional 5. Berkomitmen pada standart kerja yang tinggi LEGALISTAS:PT.YOGYAKARTA KARSA PELITA Notaris :Ratu Helda Purnamasari, SH, MKnSk. Kehakiman No.AHU –0067957.AH.01.09. Tahun 2008 tanggal 07 agustus 2014 Surat Izin Kepariwisataan Nomor: 97/DKP/SIO/BR/VIII/2015 Surat Izin Usaha (SIUP) Besarnomor: 967/294/Dinas 04.01/USDAG/XII/2015 Surat Izin Tempat Usaha nomor: 2074/ BPT/2014 Nomor ASITA : K.023/ASITA-R/VIII/2014";
 $date   = date('l, d-M-y');
 $link   = array('<a href="https://www.google.com">Link1</a>',
 		'<a href="https://www.facebook.com">Link2</a>',
