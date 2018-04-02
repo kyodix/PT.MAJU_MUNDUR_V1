@@ -25,18 +25,31 @@
 				<div class="wrapper">
 					<h1>Services</h1>
 					<a href="index.php" style="text-decoration: none; color: #aaa;">Home </a>&rsaquo; Services
-					<h2>JUDUL KONTEN SERVICES</h2>
+					<h2>BERIKUT BEBERAPA FITUR LAYANAN KAMI</h2>
 
 					<?php
-						$services = "1. Rental Mobil Travel"."<p>".
-						"Rental mobil travel tanpa supir, harga mulai dari Rp. 200.000,
-						atau rental mobil travel dengan sopir harga mulai dari Rp. 300.000"."</p>".
-						"2. Paket wisata ke pantai Gunung Kidul"."<p>".
-						"Gunung kidul punya banyak wisata paket yang indah, anda bisa menggunakan jasa travel kami dengan aman dan nyaman, harga mulai dari Rp. 250.000"."</p>".
-						"3. Paket wisata ke Kaliurang"."<p>".
-						"Kaliurang punya banyak wisata paket yang indah, anda bisa menggunakan jasa travel kami dengan aman dan nyaman, harga mulai dari Rp. 250.000"."</p>";
+						$services1 = "1. Rental Mobil Travel";
+						$services2 = "2. Paket Wisata ke Pantai Gunung Kidul";
+						$services3 = "3. Paket wisata ke Kaliurang";
 
-						echo $services;
+						if(strpos($services1,"Mobil")){
+							echo $services1;
+							echo "<p>";
+							echo "Rental mobil travel tanpa supir, harga mulai dari Rp. 200.000, atau rental mobil travel dengan sopir harga mulai dari Rp. 300.000";
+							echo "</p>";
+						}
+						if(strpos($services2,"Gunung Kidul")){
+							echo $services2;
+							echo "<p>";
+							echo "Gunung kidul punya banyak wisata paket yang indah, anda bisa menggunakan jasa travel kami dengan aman dan nyaman, harga mulai dari Rp. 250.000";
+							echo "</p>";
+						}
+						if(strpos($services3,"Kaliurang")){
+							echo $services3;
+							echo "<p>";
+							echo "Kaliurang punya banyak wisata paket yang indah, anda bisa menggunakan jasa travel kami dengan aman dan nyaman, harga mulai dari Rp. 250.000";
+							echo "</p>";
+						}
 					?>
 
 				</div>
@@ -44,15 +57,19 @@
 			<div class="sidebar">
 				<div class="siderbar-content">
 				<br>
+
 					<?php echo date('l, d-M-y'); ?>
+
 					<br>
 					<br>
 					<label><b>Links</b></label>
+
 					<?php
 						$link = array('<a href="https://www.facebook.com" style="text-decoration:none; color: grey;">Facebook</a>','<a href="https://www.instagram.com" style="text-decoration:none; color: grey;">Instagram</a>','<a href="https://www.twitter.com" style="text-decoration:none; color: grey;">Twitter</a>');
 						echo "<br>";
 						echo implode("<br>",$link);
 					?>
+
 				<br>
 				<br>
 
